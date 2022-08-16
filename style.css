@@ -1,0 +1,20 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(slick.css);
+@import url(slider.css);
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/fons/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/fons/Poppins-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/fons/Poppins-Bold.ttf);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
