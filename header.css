@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
@@ -25,6 +26,7 @@ body {
   font-weight: 900;
   font-size: 24px;
   padding-top: 3px;
+  cursor: pointer;
 }
 .logo img {
   width: 28px;
@@ -38,12 +40,25 @@ body {
 
 nav {
   width: 54%;
+  transition: 0.5s;
+}
+@media (max-width: 1130px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 1130px) {
+  nav #nav-icon7 {
+    display: none;
+    justify-content: end;
+  }
 }
 nav ul {
   width: 100%;
   padding: 0px;
   display: flex;
   justify-content: space-between;
+  transition: 0.5s;
 }
 nav ul li {
   list-style-type: none;

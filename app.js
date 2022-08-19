@@ -13,6 +13,23 @@ $(document).ready(function(){
                     infinite: true,
                     dots: true,
                 }
+            },{
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
             },
         ]
     })
