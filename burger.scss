@@ -18,8 +18,8 @@
     cursor: pointer;
 }
 #nav-icon7 span {
-    height: 5px;
-    width: 60px;
+    height: 2px;
+    width: 50px;
     background-color:black;
     border-radius: 20px;
     position: absolute;
@@ -28,9 +28,9 @@
 #nav-icon7 span:before {
     left: 0;
     position: absolute;
-    top: -15px;
-    height: 5px;
-    width: 60px;
+    top: -12px;
+    height: 2px;
+    width: 50px;
     background-color:black;
     content: "";
     border-radius: 20px;
@@ -39,9 +39,9 @@
 #nav-icon7 span:after {
     left: 0;
     position: absolute;
-    top: 15px;
-    height: 5px;
-    width: 60px;
+    top: 12px;
+    height: 2px;
+    width: 50px;
     background-color:black;
     content: "";
     border-radius: 20px;

@@ -26,10 +26,13 @@
 .slick-dots {
   display: flex;
   justify-content: center;
+  padding: 0px;
+  margin-bottom: 45px;
 }
-@media (max-width: 320px) {
+@media (max-width: 1250px) {
   .slick-dots {
     padding: 0px;
+    margin: 0px;
   }
 }
 .slick-dots .slick-active button {

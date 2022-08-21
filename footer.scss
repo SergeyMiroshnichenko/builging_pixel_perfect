@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    height: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,7 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
-            padding-top: 20px;
+            padding-top: 6px;
             
             @media (max-width:980px) {
                 width: 90%;
@@ -110,12 +109,12 @@
             } 
 
             @media (max-width:640px) {
-                width: 60%;;  
+                width: 90%;;  
             } 
 
             .footer_box {
-                padding-left: 25px;
-                padding-top: 60px;
+                padding-left: 65px;
+                padding-top: 39px;
 
                 @media (max-width:980px) {
                  padding: 0px;  
@@ -130,6 +129,8 @@
 
                 ul {
 
+                    padding: 0px;
+                 
 
                     li {
                         list-style-type: none;

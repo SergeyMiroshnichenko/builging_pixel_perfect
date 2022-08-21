@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   justify-content: center;
-  height: 112px;
+  padding: 29px 11px;
 }
 .header .container {
   width: 77%;
@@ -31,8 +31,7 @@ body {
 .logo img {
   width: 28px;
   height: 28px;
-  padding-right: 13px;
-  padding-top: 5px;
+  padding-right: 0px;
 }
 .logo a {
   cursor: pointer;
